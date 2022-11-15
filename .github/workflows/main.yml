@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    runs-on: sleep-3600
+    runs-on: nginx-test
     steps:
       -
         name: Checkout
@@ -28,4 +28,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: aureliendamien/su-info:sleep3600
+          tags: aureliendamien/su-info:nginx-test
