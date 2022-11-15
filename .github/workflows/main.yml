@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    runs-on: nginx-test
+    runs-on: ubunut-latest
     steps:
       -
         name: Checkout
